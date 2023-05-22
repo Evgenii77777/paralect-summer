@@ -1,0 +1,48 @@
+.item {
+  position: relative;
+  padding: 24px;
+  background: #ffffff;
+  border: 1px solid #eaebed;
+  border-radius: 12px;
+}
+
+.item:not(:last-child) {
+  margin-bottom: 16px;
+}
+
+.title {
+  margin-bottom: 12px;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 24px;
+  color: #5e96fc;
+}
+
+.price {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 1.25;
+}
+
+.point {
+  margin: 0 12px;
+}
+
+.day {
+  font-size: 16px;
+  line-height: 1.25;
+}
+
+.city {
+  margin-top: 12px;
+  padding-left: 28px;
+  font-size: 16px;
+  line-height: 19px;
+  background-image: url(../../assets/location.svg);
+  background-repeat: no-repeat;
+}
+
+.item > a,
+.btn > img {
+  z-index: 1;
+}

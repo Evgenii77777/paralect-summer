@@ -1,0 +1,68 @@
+.filters {
+  width: 316px;
+  max-height: 360px;
+  padding: 20px;
+  background: #ffffff;
+  border: 1px solid #eaebed;
+  border-radius: 12px;
+}
+
+.wrapper {
+  margin-bottom: 32px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.descr {
+  margin-bottom: 8px;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19px;
+}
+
+select,
+.input {
+  width: 100%;
+  padding: 10px 12px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.43;
+  color: #acadb9;
+  background: #ffffff;
+  border: 1px solid #d5d6dc;
+  border-radius: 8px;
+}
+
+select {
+  margin-bottom: 20px;
+  appearance: none;
+  overflow: hidden;
+  background: url("./assets/down.svg") no-repeat;
+  background-position: 96% 8px;
+}
+
+.box {
+  margin-bottom: 20px;
+}
+
+.box > .wrapperInput:not(:last-child) {
+  margin-bottom: 8px;
+}
+
+.wrapperInput {
+  position: relative;
+}
+
+.wrapperBtn {
+  position: absolute;
+  top: 8px;
+  right: 12px;
+  display: flex;
+  flex-direction: column;
+}
+
+@media (max-width: 766.99px) {
+  .filters {
+    width: auto;
+  }
+}

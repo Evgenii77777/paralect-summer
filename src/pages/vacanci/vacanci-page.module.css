@@ -1,0 +1,66 @@
+.container,
+.wrapper {
+  margin-bottom: 20px;
+  padding: 24px;
+  background: #ffffff;
+  border: 1px solid #eaebed;
+  border-radius: 12px;
+}
+
+.container {
+  position: relative;
+}
+
+.wrapper > ul {
+  margin-bottom: 20px;
+  list-style-type: disc;
+  list-style-position: inside;
+  font-size: 16px;
+  line-height: 1.4;
+  color: #232134;
+}
+
+.wrapper > p {
+  margin-bottom: 16px;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 1;
+  color: #232134;
+}
+
+.title {
+  margin-bottom: 16px;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 34px;
+}
+
+.price {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 1;
+}
+
+.point {
+  margin: 0 12px;
+}
+
+.day {
+  font-size: 20px;
+  line-height: 1;
+}
+
+.city {
+  margin-top: 12px;
+  padding-left: 28px;
+  font-size: 16px;
+  line-height: 19px;
+  background-image: url(../../assets/location.svg);
+  background-repeat: no-repeat;
+}
+
+.btn {
+  position: absolute;
+  top: 24px;
+  right: 24px;
+}

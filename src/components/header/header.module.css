@@ -1,0 +1,40 @@
+.header {
+  margin-bottom: 40px;
+  padding: 24px 0;
+  background: #ffffff;
+}
+
+.wrapper {
+  display: flex;
+  align-items: center;
+}
+
+.title {
+  margin-left: 12px;
+  font-family: "Poppins";
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 1.2;
+  letter-spacing: -0.02em;
+}
+
+.list {
+  display: flex;
+  margin-left: 280px;
+}
+
+.item {
+  line-height: 1.25;
+  font-size: 14px;
+}
+
+.item:not(:last-child) {
+  margin-right: 60px;
+}
+
+@media (max-width: 766.99px) {
+  .list {
+    margin-left: 0;
+    margin-top: 10px;
+  }
+}

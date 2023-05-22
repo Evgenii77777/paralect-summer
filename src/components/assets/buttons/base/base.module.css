@@ -1,0 +1,42 @@
+.filterBtn {
+  display: flex;
+  align-items: center;
+  font-weight: 500;
+  line-height: 1.43;
+  color: #acadb9;
+}
+
+.searchBtn {
+  width: 100%;
+  padding: 10px 0;
+  font-weight: 500;
+  line-height: 1.5;
+  text-align: center;
+  color: #ffffff;
+  background: #5e96fc;
+  border-radius: 8px;
+}
+
+.search {
+  position: absolute;
+  top: -8px;
+  right: 0;
+  width: auto;
+  padding: 6px 20px;
+  font-weight: 500;
+  line-height: 1.5;
+  text-align: center;
+  color: #ffffff;
+  background: #5e96fc;
+  border-radius: 8px;
+}
+
+.img {
+  margin-left: 4px;
+}
+
+@media (max-width: 766.99px) {
+  .search {
+    padding: 6px 8px;
+  }
+}
